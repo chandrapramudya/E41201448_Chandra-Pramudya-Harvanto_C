@@ -14,9 +14,9 @@ public class TugasB {
     
     public static void main(String[] args) {
         // Deklarasi Variabel
-        int i = 1;
+        int i = 1; 
         System.out.println("                  Do__While                      ");
-        System.out.println("             Bilangan Kelipatan 2                ");
+        System.out.println("             Bilangan Perkalian 2                ");
         System.out.println("                   (1-100)                       ");
         System.out.println("=================================================");
         //Coding
@@ -25,5 +25,22 @@ public class TugasB {
             i = i * 2;
             System.out.print(" ");
         } while (i<=100);
+        System.out.println(" ");
+
+        // Deklarasi Variabel
+        int j = 2;
+        System.out.println("                  Do__While                      ");
+        System.out.println("             Bilangan Kelipatan 2                ");
+        System.out.println("                   (1-100)                       ");
+        System.out.println("=================================================");
+        //Coding
+        do {
+            System.out.print(j+" " );
+            j +=2;
+            System.out.print(" ");
+        } while (j<=100);
     }
 }
+
+
+
